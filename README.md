@@ -42,7 +42,10 @@ Cервис предоставляет методы для расчета сто
 
 • requests.get("http://127.0.0.1:8000/insurance/",json=test_insurance_request) - для получения актуальных данных о стоимости страхования.
 
-Для компиляции проекта в docker image, в корне каталога содержится Dockerfile, из директории с файлом "docker build -t myimage . ". Для запуска контейнера "docker run --name myimagecont -d -p 8000:8000 myimage"
-Для импорта проекта через git, откройте git-bash и запустите "git clone https://github.com/fomin-ad22/insurance_api.git" 
+Как развернуть?
+
+• Для импорта проекта через git, откройте git-bash и запустите "git clone https://github.com/fomin-ad22/insurance_api.git", либо перейдите по ссылке https://github.com/fomin-ad22/insurance_api.git и скопируйте файлы репозитория.
+ 
+• Для компиляции проекта в docker image, в корне каталога содержится Dockerfile, из директории с файлом "docker build -t myimage . ". Для запуска контейнера "docker run --name myimagecont -d -p 8000:8000 myimage".
 
 С вопросами и предложениями @fomin_ad22 tg
