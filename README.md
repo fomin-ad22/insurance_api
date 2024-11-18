@@ -42,6 +42,7 @@ Cервис предоставляет методы для расчета стр
 
 • requests.get("http://127.0.0.1:8000/insurance/",json=test_insurance_request) - для получения актуальных данных о стоимости страхования.
 
-Для компиляции проекта в docker image, в корне каталога содержится Dockerfile. Для импорта проекта через git, 
+Для компиляции проекта в docker image, в корне каталога содержится Dockerfile. 
+Для импорта проекта через git, откройте git-bash и запустите "git clone https://github.com/fomin-ad22/insurance_api.git" 
 
 С вопросами и предложениями @fomin_ad22 tg
